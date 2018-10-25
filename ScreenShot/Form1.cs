@@ -58,8 +58,8 @@ namespace ScreenShot
         }
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyData == Keys.Home)
-                Kaydet(ResimAdi());
+            if (e.KeyData == Keys.Home) // Home tuşuna basıldığında
+                 Kaydet(ResimAdi()); // ss alma işlemini yap
         }
         private void button1_Click(object sender, EventArgs e)
         {
